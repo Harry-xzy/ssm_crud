@@ -15,6 +15,13 @@ public interface DepartmentMapper {
 
     int insertSelective(Department record);
 
+
+
+
+
+
+    //git测试
+
     List<Department> selectByExample(DepartmentExample example);
 
     int updateByExampleSelective(@Param("record") Department record, @Param("example") DepartmentExample example);
