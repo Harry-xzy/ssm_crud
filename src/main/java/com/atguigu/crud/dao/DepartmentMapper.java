@@ -27,6 +27,8 @@ public interface DepartmentMapper {
     //git hotfix分支test
 
     //gti push test
+    
+      //gti pull test
 
     List<Department> selectByExample(DepartmentExample example);
 
