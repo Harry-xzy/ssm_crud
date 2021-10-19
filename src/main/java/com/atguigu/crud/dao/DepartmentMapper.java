@@ -26,6 +26,8 @@ public interface DepartmentMapper {
 
     //git hotfix分支test
 
+    //gti push test
+
     List<Department> selectByExample(DepartmentExample example);
 
     int updateByExampleSelective(@Param("record") Department record, @Param("example") DepartmentExample example);
